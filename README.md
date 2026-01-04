@@ -1,10 +1,6 @@
-# Technical Walk-through: Saturn Periapsis Station Keeping
+# Description
 
-This technical project documents the orbital maintenance strategy for a spacecraft in a highly elliptical polar orbit around Saturn. The objective was to counteract periapsis precession caused by the planet's oblateness ($J_2$ effect) to ensure a fixed orbital geometry for scientific observation.
-
-## 1. Project Overview & Personal Motivation
-
-As an aerospace engineer, I chose this problem to explore the complexities of station keeping in non-Earth environments. Saturn's significantly larger $J_2$ term ($0.01629$) provides a rigorous test for orbital perturbation theories, requiring precise maneuver planning to maintain a fixed periapsis.
+This program walk-through documents the orbital maintenance strategy for a spacecraft in a highly elliptical polar orbit around Saturn. The objective was to counteract periapsis precession caused by the planet's oblateness ($J_2$ effect) to ensure a fixed orbital geometry for scientific observation. I chose this problem to explore the complexities of station keeping in non-Earth environments. Saturn's significantly larger $J_2$ term ($0.01629$) provides a rigorous test for orbital perturbation theories, requiring precise maneuver planning to maintain a fixed periapsis.
 <br />
 
 **The Mission:** Maintain a fixed periapsis for a spacecraft in a polar orbit with a 22.5-day period and a 1,500 km periapsis altitude.
